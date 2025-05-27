@@ -21,4 +21,5 @@ jobs:
           distribution: 'temurin'
 
       - name: Buildar e rodar testes com Maven
+        working-directory: ./atividade-api-rest-ci
         run: mvn clean install
